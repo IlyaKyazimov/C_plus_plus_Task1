@@ -7,7 +7,7 @@ int Atm::s_num = 1;
 
 int main()
 {
-    std::array<Atm, 5> atms = 
+    std::array<Atm, 5> atms =
     {
         Atm("000000001", "Moscow"),
         Atm("000000002", "St.-Petersburg"),
@@ -17,6 +17,4 @@ int main()
     };
 
     std::for_each(atms.begin(), atms.end(), print);
-
-    return 0;
-}
+};
