@@ -1,11 +1,11 @@
 ﻿#include <iostream>
-#include <array>
+#include <vector>
 #include <algorithm>
 #include "Atm.h"
 
 int main()
 {
-    std::array<Atm, 5> atms =
+    std::vector<Atm> atms =
     {
         Atm("000000001", "Moscow"),
         Atm("000000002", "St.-Petersburg"),
