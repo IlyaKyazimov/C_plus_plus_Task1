@@ -3,8 +3,6 @@
 #include <algorithm>
 #include "Atm.h"
 
-int Atm::s_num = 1;
-
 int main()
 {
     std::array<Atm, 5> atms =
@@ -17,4 +15,6 @@ int main()
     };
 
     std::for_each(atms.begin(), atms.end(), print);
+
+    return 0;
 };
